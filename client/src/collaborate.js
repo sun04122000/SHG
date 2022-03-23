@@ -9,7 +9,7 @@ function Collaborate(){
         <Sidebar/>
         <div className="collaborate">
         <header className='collabhead'>
-        <h1>Welcome to collab page</h1>
+        <h1>Collaborate With Us!</h1>
         </header>
         <main className='collabmain'>
         <p>Here is the procedure to collaborate with the team if you wish to sell your products on our website</p>

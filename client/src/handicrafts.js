@@ -16,7 +16,7 @@ function MainHandicrafts() {
         {handicrafts.map((seller)=>{
             return(
                 <Col className='col-12  col-lg-4' key={seller.id} >
-                    <Card className="mb-2">
+                    <Card className="mb-2 handicrafts-card">
                         <Card.Img variant="top" src={seller.image} />
                         <Card.Body>
                         <Card.Title>{seller.product}</Card.Title>

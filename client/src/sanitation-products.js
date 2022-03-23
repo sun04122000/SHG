@@ -16,7 +16,7 @@ function MainSanitationProducts() {
         {sanitationProducts.map((seller)=>{
             return(
                 <Col className='col-12  col-lg-4' key={seller.id}>
-                    <Card className="mb-2">
+                    <Card className="mb-2 sanitation-products-card">
                         <Card.Img variant="top" src={seller.image} />
                         <hr/>
                         <Card.Body>

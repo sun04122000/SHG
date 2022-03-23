@@ -6,8 +6,8 @@ import { Button } from 'react-bootstrap';
 function Register() {
 	
 
-	const [name, setName] = useState('NAME')
-	const [email, setEmail] = useState('EMAIL')
+	const [name, setName] = useState('')
+	const [email, setEmail] = useState('')
 	const [password, setPassword] = useState('')
 
 	async function registerUser(event) {

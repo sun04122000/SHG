@@ -16,7 +16,7 @@ function MainSellers(){
         {sellers.map((seller)=>{
             return(
                 <Col className='col-12  col-lg-4' key={seller.id} >
-                    <Card className="mb-2">
+                    <Card className="mb-2 sellers-card">
                         <Card.Img variant="top" src={seller.image} />
                         <Card.Body>
                         <Card.Title>{seller.Name}</Card.Title>
