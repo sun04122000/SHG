@@ -20,20 +20,20 @@ function Market(){
     <Router basename='/SHG'>
       <Routes>
       
-      <Route  exact path='/' element={<Shop/>}></Route>
-      <Route  path='/fashion' element={<MainFashion/>}></Route>
-      <Route   path='/eatables' element={<Eatables/>}></Route>
+      <Route  exact path='/' element={<Aboutus/>} />
+      <Route  path='/fashion' element={<MainFashion/>} />
+      <Route   path='/eatables' element={<Eatables/>} />
 
-      <Route   path='/handicrafts' element={<Handicrafts/>}></Route>
+      <Route   path='/handicrafts' element={<Handicrafts/>} />
 
-      <Route   path='/sanitationproducts' element={<SanitationProducts/>}></Route>
+      <Route   path='/sanitationproducts' element={<SanitationProducts/>} />
       
-      <Route  path='/aboutus' element={<Aboutus/>} ></Route>
+      {/* <Route  path='/aboutus' element={<Aboutus/>} /> */}
       
-      <Route  path='/collaborate' element={<Collaborate/>} ></Route>
+      <Route  path='/collaborate' element={<Collaborate/>} />
       
-      <Route  path='/currentsellers' element={<CurrentSellers/>} ></Route>
-      <Route  path='/contact' element={<Contactus/>} ></Route>
+      <Route  path='/currentsellers' element={<CurrentSellers/>} />
+      <Route  path='/contact' element={<Contactus/>} />
       
       </Routes>
     </Router>
