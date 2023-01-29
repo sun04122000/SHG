@@ -14,7 +14,7 @@ export const Navigationbar = () =>{
       <Navbar >
         <Container className='navBar'>
         <Nav className={showNavBar? "flex-column":"me-auto"}>
-        <Nav.Link href="#" style={{color:'white'}} className="navButton">SHG-CONNECT</Nav.Link>
+        <Nav.Link href="#" style= {{color:'white'}} className="navButton">SHG-CONNECT</Nav.Link>
         <Nav.Link href="#" style={{color:'white'}} className={showNavBar? "faBar mobileFaBar":"faBar"} onClick={()=>{setShowNavBar(!showNavBar);}}><FaBars/></Nav.Link>
           <Nav.Link href="/SHG" style={{color:'white'}} className={showNavBar? "navLink mobileNavLink flex-column":"navLink"}>SHOP</Nav.Link>
           <Nav.Link href="/SHG/aboutus" style={{color:'white'}} className={showNavBar? "navLink mobileNavLink flex-column":"navLink"}>ABOUT-US</Nav.Link>

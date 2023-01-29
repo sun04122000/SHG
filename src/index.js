@@ -9,7 +9,7 @@ import Handicrafts from './handicrafts';
 import SanitationProducts from './sanitation-products';
 import CurrentSellers from './current-sellers';
 import Contactus from './contact-us';
-import { HashRouter as Router, Routes,Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes,Route } from "react-router-dom";
 // import Register from './register';
 // import Login from './login';
 import MainFashion from './fashion';
