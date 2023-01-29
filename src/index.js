@@ -20,7 +20,7 @@ function Market(){
     {/* <Router>
       <Routes> */}
       <switch>
-      <Route  exact path='/' element={<Shop/>}></Route>
+      <Route  exact path='/'><Shop/></Route>
       <Route  exact path='/fashion' element={<MainFashion/>}></Route>
       <Route   path='/eatables' element={<Eatables/>}></Route>
 
