@@ -16,10 +16,10 @@ import MainFashion from './fashion';
 function Market(){
   return(
     <> 
-    <Shop/>
    
     {/* <Router>
-      <Routes>
+      <Routes> */}
+      <switch>
       <Route  exact path='/' element={<Shop/>}></Route>
       <Route  exact path='/fashion' element={<MainFashion/>}></Route>
       <Route   path='/eatables' element={<Eatables/>}></Route>
@@ -34,7 +34,8 @@ function Market(){
       
       <Route  path='/currentsellers' element={<CurrentSellers/>} ></Route>
       <Route  path='/contact' element={<Contactus/>} ></Route>
-      </Routes>
+      </switch>
+      {/* </Routes>
     </Router> */}
     </>
   );
