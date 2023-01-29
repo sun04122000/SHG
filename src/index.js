@@ -17,10 +17,10 @@ function Market(){
   return(
     <> 
    
-    {/* <Router>
-      <Routes> */}
-      <switch>
-      <Route  exact path='/'><Shop/></Route>
+    <Router>
+      <Routes>
+      
+      <Route  exact path='/' element={<Shop/>}></Route>
       <Route  exact path='/fashion' element={<MainFashion/>}></Route>
       <Route   path='/eatables' element={<Eatables/>}></Route>
 
@@ -34,9 +34,9 @@ function Market(){
       
       <Route  path='/currentsellers' element={<CurrentSellers/>} ></Route>
       <Route  path='/contact' element={<Contactus/>} ></Route>
-      </switch>
-      {/* </Routes>
-    </Router> */}
+      
+      </Routes>
+    </Router>
     </>
   );
 }
