@@ -17,7 +17,7 @@ function Market(){
   return(
     <> 
    
-    <Router>
+    <Router basename='/SHG'>
       <Routes>
       
       <Route  exact path='/' element={<Shop/>}></Route>
