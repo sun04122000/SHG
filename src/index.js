@@ -10,8 +10,8 @@ import SanitationProducts from './sanitation-products';
 import CurrentSellers from './current-sellers';
 import Contactus from './contact-us';
 import { BrowserRouter as Router, Routes,Route } from "react-router-dom";
-import Register from './register';
-import Login from './login';
+// import Register from './register';
+// import Login from './login';
 import MainFashion from './fashion';
 function Market(){
   return(
@@ -20,7 +20,7 @@ function Market(){
       <Routes>
       
       {/* <Route  exact path='/' element={<Register/>}></Route> */}
-      <Route  path='/login' element={<Login/>}></Route>
+      {/* <Route  path='/login' element={<Login/>}></Route> */}
       <Route  exact path='/' element={<Shop/>}></Route>
       {/* <Route  exact path='/shop' element={<Shop/>}></Route> */}
       <Route  exact path='/fashion' element={<MainFashion/>}></Route>
