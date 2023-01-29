@@ -21,19 +21,19 @@ function Market(){
       <Routes>
       
       <Route  exact path='/SHG' element={<Shop/>}></Route>
-      <Route  exact path='/SHG/fashion' element={<MainFashion/>}></Route>
-      <Route   path='/SHG/eatables' element={<Eatables/>}></Route>
+      <Route  path='/fashion' element={<MainFashion/>}></Route>
+      <Route   path='/eatables' element={<Eatables/>}></Route>
 
-      <Route   path='/SHG/handicrafts' element={<Handicrafts/>}></Route>
+      <Route   path='/handicrafts' element={<Handicrafts/>}></Route>
 
-      <Route   path='/SHG/sanitationproducts' element={<SanitationProducts/>}></Route>
+      <Route   path='/sanitationproducts' element={<SanitationProducts/>}></Route>
       
-      <Route  path='/SHG/aboutus' element={<Aboutus/>} ></Route>
+      <Route  path='/aboutus' element={<Aboutus/>} ></Route>
       
-      <Route  path='/SHG/collaborate' element={<Collaborate/>} ></Route>
+      <Route  path='/collaborate' element={<Collaborate/>} ></Route>
       
-      <Route  path='/SHG/currentsellers' element={<CurrentSellers/>} ></Route>
-      <Route  path='/SHG/contact' element={<Contactus/>} ></Route>
+      <Route  path='/currentsellers' element={<CurrentSellers/>} ></Route>
+      <Route  path='/contact' element={<Contactus/>} ></Route>
       
       </Routes>
     </Router>
