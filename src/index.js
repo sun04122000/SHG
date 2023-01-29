@@ -21,7 +21,7 @@ function Market(){
       
       {/* <Route  exact path='/' element={<Register/>}></Route> */}
       {/* <Route  path='/login' element={<Login/>}></Route> */}
-      <Route  exact path='/' element={<Shop/>}></Route>
+      <Route  exact path='/SHG/' element={<Shop/>}></Route>
       {/* <Route  exact path='/shop' element={<Shop/>}></Route> */}
       <Route  exact path='/fashion' element={<MainFashion/>}></Route>
       <Route   path='/eatables' element={<Eatables/>}></Route>
