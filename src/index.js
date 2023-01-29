@@ -20,7 +20,7 @@ function Market(){
     <Router basename='/SHG'>
       <Routes>
       
-      <Route  exact path='/SHG' element={<Shop/>}></Route>
+      <Route  exact path='/' element={<Shop/>}></Route>
       <Route  path='/fashion' element={<MainFashion/>}></Route>
       <Route   path='/eatables' element={<Eatables/>}></Route>
 
