@@ -492,7 +492,7 @@
     .sidenavLink{
         background-color: #f1a22b;
         font-weight: bold;
-        font-size: small;
+        font-size: smaller;
         display: inline-block;
     }
     .footer{
