@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/SHG/static/css/main.a2ff0674.css",
+    "main.css": "/SHG/static/css/main.8f6c17e9.css",
     "main.js": "/SHG/static/js/main.ee1bfbc3.js",
     "static/media/eatables_background.png": "/SHG/static/media/eatables_background.d42fe54039970b403c7c.png",
     "index.html": "/SHG/index.html",
-    "main.a2ff0674.css.map": "/SHG/static/css/main.a2ff0674.css.map",
+    "main.8f6c17e9.css.map": "/SHG/static/css/main.8f6c17e9.css.map",
     "main.ee1bfbc3.js.map": "/SHG/static/js/main.ee1bfbc3.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2ff0674.css",
+    "static/css/main.8f6c17e9.css",
     "static/js/main.ee1bfbc3.js"
   ]
 }
