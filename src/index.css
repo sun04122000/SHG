@@ -491,7 +491,7 @@
     }
     .sidenavLink{
         background-color: #f1a22b;
-        font-weight: bold;
+        /* font-weight: bold; */
         font-size: smaller;
         display: inline-block;
     }
