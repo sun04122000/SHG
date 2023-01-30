@@ -445,6 +445,7 @@
 @media (max-width: 800px) {
     .navBar{
         position: relative;
+        display: flex;
         width: 100%;
         margin-left: 0rem;
     }
@@ -453,6 +454,7 @@
     }
     .navBar .faBar{
         display: inline-block;
+        display: flex;
         margin-left: 0rem;
     }
     .navBar .mobileNavLink{
@@ -469,14 +471,31 @@
         margin-right: 0rem;
     }
     .contactus{
-        background-color: rgb(211, 83, 115); 
+        /* background-color: rgb(211, 83, 115);  */
         padding-bottom: 2rem;
         margin-left: 0rem;
-        margin-right: 0rem;
+        text-align: left;
+        /* margin-right: 0rem; */
     }
-    .contactimg{
+    /* .contactimg{
         position: relative;
         display: inline-block;
         text-align: left;
+    } */
+    .contactinfo{
+        /* margin-left: -10rem; */
+        margin-top: 3rem;
+        margin-bottom: -2rem;
+        padding-left:1rem;
+        text-align:left;
+    }
+    .sidenavLink{
+        background-color: #f1a22b;
+        /* font-weight: bold; */
+        font-size:xx-small;
+        display: inline-block;
+    }
+    .footer{
+        width:auto;
     }
 }
